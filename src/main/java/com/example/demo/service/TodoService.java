@@ -14,7 +14,7 @@ public class TodoService {
 	
 	public String testService(){
 		// Todo Entity 생성
-		TodoEntity entity = TodoEntity.builder().userId("user01").title("My first todo item").build();
+		TodoEntity entity = TodoEntity.builder().userId("Sung Chae Won").title("My first todo item").build();
 		//Todo Entity 저장
 		repository.save(entity);
 		//Todo Entity 검색
